@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-const api = "http://localhost:2000";
+const api = "https://lnmserver-dilshand3s-projects.vercel.app";
 
 const useAuth = create((set) => ({
     token: null,
