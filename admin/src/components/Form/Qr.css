@@ -1,0 +1,75 @@
+/* Qr.css */
+.qrContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 30%;
+}
+
+.input-label {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 8px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.qr-button {
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qr-button:hover {
+    background-color: #2980B9;
+}
+
+.qr-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.qr-view-button {
+    background-color: #2980B9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qr-view-button:hover {
+    background-color: #3498DB;
+}
+
+.logout-button {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.logout-button:hover {
+    background-color: #3498DB;
+}
